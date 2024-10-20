@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "binary-sets"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Malik <daniel.malik@mhsp.solutions>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.2"
+celery = "^5.4.0"
+django-bootstrap5 = "^24.3"
+django-celery-beat = "^2.7.0"
+django-celery-results = "^2.5.1"
+lxml = {version = "^5.3.0", extras = ["html_clean"]}
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+gunicorn = "^23.0.0"
+psycopg2-binary = "^2.9.9"
+django-debug-toolbar = "^4.4.6"
+django-configurations = {extras = ["cache", "database", "email", "search"], version = "^2.5.1"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
