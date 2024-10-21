@@ -505,6 +505,20 @@ files = [
 Django = ">=3.2,<6.0"
 
 [[package]]
+name = "djangorestframework"
+version = "3.15.2"
+description = "Web APIs for Django, made easy."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "djangorestframework-3.15.2-py3-none-any.whl", hash = "sha256:2b8871b062ba1aefc2de01f773875441a961fefbf79f5eed1e32b2f096944b20"},
+    {file = "djangorestframework-3.15.2.tar.gz", hash = "sha256:36fe88cd2d6c6bec23dca9804bab2ba5517a8bb9d8f47ebc68981b56840107ad"},
+]
+
+[package.dependencies]
+django = ">=4.2"
+
+[[package]]
 name = "gunicorn"
 version = "23.0.0"
 description = "WSGI HTTP Server for UNIX"
@@ -742,6 +756,22 @@ files = [
 
 [package.dependencies]
 lxml = "*"
+
+[[package]]
+name = "mux-python"
+version = "3.18.0"
+description = "Mux API"
+optional = false
+python-versions = "*"
+files = [
+    {file = "mux_python-3.18.0-py3-none-any.whl", hash = "sha256:97bad413b7e88d4329000df440ae9524b8516c5d7d3d4df9b6edd66b32da83c8"},
+    {file = "mux_python-3.18.0.tar.gz", hash = "sha256:99f1f3fe186d6195f90e8d9c703df18199f8bd617b1cb817cef49ab855f37293"},
+]
+
+[package.dependencies]
+python-dateutil = "*"
+six = ">=1.10"
+urllib3 = ">=1.25.3"
 
 [[package]]
 name = "packaging"
@@ -998,4 +1028,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "d916e6c8dddb573bbb8951772350818f52441a52d67cd3b860b90fd48cb167c7"
+content-hash = "1a0b2293491dafa4aecdf48a3075a4abbb4bcb8d6755d64da5e9de17b9d3b7b1"
